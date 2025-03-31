@@ -1,0 +1,46 @@
+{
+    ".gitignore": "",
+    ".env": "",
+    ".vscode": {
+        "settings.json": "",
+        "launch.json": ""
+    },
+    "app": {
+        "__init__.py": "",
+        "email_templates": {
+            "registration_email_template.html": ""
+        },
+        "config.py": {
+            "database.py": "",
+            "email.py": "",
+            "upload.py": ""
+        },
+        "utils": {
+            "__init__.py": "",
+            "auth_utils.py": "",
+            "date_utils.py": "",
+            "email_utils.py": "",
+            "file_utils.py": ""
+        },
+        "models": {
+            "__init__.py": "",
+            "user.py": "",
+            "books.py": ""
+        },
+        "routes": {
+            "__init__.py": "",
+            "auth.py": "",
+            "book.py": "",
+            "users.py": ""
+        },
+        "schemas": {
+            "__init__.py": "",
+            "user_schema.py": "",
+            "book_schema.py": ""
+        }
+    },
+    "migrations": {},
+    "requirements.txt": "",
+    "run.py": "",
+    "README.md": ""
+}

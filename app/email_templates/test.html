@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Gradient Background</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .background-container {
+            background-color: #0f0f0f;
+            background-image: radial-gradient(circle at 30% 20%, rgba(255, 100, 100, 0.05), transparent 60%),
+                radial-gradient(circle at 70% 80%, rgba(100, 255, 255, 0.05), transparent 60%),
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.02), transparent 60%);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+        }
+
+        .content {
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-container"></div>
+    <div class="content">
+        <h1>Dynamic Background Example</h1>
+        <p>This page demonstrates a dynamic background that fills the entire viewport.</p>
+        <p>Try resizing the window to see how the background adapts!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
+    </div>
+</body>
+
+</html>
